@@ -13,6 +13,7 @@ const completeOrder = []
 
 const logRequest = (request, response, next) => {
     console.log(`Method: ${request.method}, URL: ${request.url}`)
+    
     next()
 }
 
